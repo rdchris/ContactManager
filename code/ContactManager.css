@@ -1,0 +1,43 @@
+﻿#searchByNameLabel, #searchByDepartmentLabel
+{
+    font-weight: bold;
+    padding: 0px 4px 0px 4px;
+}
+
+/* Center Panels */
+#contents
+{
+    width: 1004px;
+    margin: auto auto;
+}
+
+/* Add mouseover effects to blotter grid */
+
+    cursor: hand; 
+    cursor: pointer;
+#editIcon, #deleteIcon 
+{
+}
+
+/* Hide the headers from the Window Editor Grid to make the grids look like listcontrols */
+#WindowEditorCurrentDepartmentsGrid .x-grid3-header, #WindowEditorAllDepartmentsGrid .x-grid3-header 
+{
+    display:none !important;
+}
+
+/* Bold Column Headings */
+.contactGridHeading
+{
+    font-weight: bold;
+}
+
+.errorTxt
+{
+    color:Red;
+    visibility: hidden;
+}
+
+.x-grid3-scroller {
+  overflow:scroll;
+}
+               
